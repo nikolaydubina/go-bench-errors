@@ -4,7 +4,7 @@ How does _creation_, _serialization_, and _wrapping_ changes with different erro
 
 Notation
 * `fmt.Errorf` you wrap like this `fmt.Errorf("my message %s with data %f: %w", err)`
-* `DelayedError` you wrap underlying error into field but do not call `e.Err.Error()` immediately, but call it in `e.Error()` of wrapper
+* `DelayedError` you wrap underlying error into field but do not call `e.Err.Error()` immediately
 * `errors.New` you create error with string passed directly into struct, no fmt calls made.
 
 Results
