@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: If you reference these benchmarks in publication, please cite it as below.
+title: Benchmarking Go errors
+abstract: Benchmarking Go errors
+authors:
+- family-names: Dubina
+  given-names: Nikolay
+version: 2.1
+date-released: 2021-04-09
+license: MIT
+repository-code: https://github.com/nikolaydubina/go-bench-errors
+url: https://github.com/nikolaydubina/go-bench-errors
